@@ -129,7 +129,6 @@
   /* suratebze samanipulaciod viyenebt*/
   filter: brightness(0);
   opacity: 0.5;
-
 }
 /* ******************* */
 /* HOW IT WORKS SECTION */
@@ -192,14 +191,14 @@
   padding: 9.6rem 0;
 }
 .meal {
-  box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.075);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.3s;
 }
 .meal:hover {
   transform: translateY(-1.2rem);
-  box-shadow: 0 3.2rem 6.4rem rgba(0,0,0,0.06);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 .meal-content {
   padding: 3.2rem 4.8rem 4.8rem 4.8rem;
@@ -218,13 +217,12 @@
 }
 .tag--vegetarian {
   background-color: #51cf66;
-  
 }
 .tag--vegan {
   background-color: #94d82d;
 }
-.tag--paleo{
-background-color: #fcc419;
+.tag--paleo {
+  background-color: #fcc419;
 }
 .meal-title {
   font-size: 2.4rem;
@@ -233,9 +231,9 @@ background-color: #fcc419;
   margin-bottom: 3.2rem;
 }
 .meal-attributes {
-display: flex;
-flex-direction: column;
-gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 .meal-attribute {
   font-size: 1.8rem;
@@ -246,11 +244,11 @@ gap: 2rem;
 .meal-icon {
   width: 2.4rem;
   height: 2.4rem;
-  color: #e67e22;
+  filter: invert(50%) sepia(80%) saturate(500%) hue-rotate(10deg);
 }
 .meal-img {
   width: 100%;
-  border-radius:11px  11px  0 0;
+  border-radius: 11px 11px 0 0;
 }
 .all-recipes {
   text-align: center;
@@ -274,7 +272,6 @@ gap: 2rem;
   grid-template-columns: 1fr 1fr;
   row-gap: 4.8rem;
   column-gap: 8rem;
-
 }
 
 .testimonial-img {
@@ -317,8 +314,8 @@ gap: 2rem;
   padding: 9.6rem 0;
 }
 .pricing-plan {
-   border-radius: 11px;
-   width: 75%;
+  border-radius: 11px;
+  width: 75%;
 }
 .pricing-plan--starter {
   justify-self: end;
@@ -343,7 +340,6 @@ gap: 2rem;
   background-color: #ffd43b;
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
-
 }
 .plan-header {
   text-align: center;
@@ -369,11 +365,32 @@ gap: 2rem;
   margin-right: 0.8rem;
 }
 .plan-text {
-font-size: 1.6rem;
-line-height: 1.6;
-color: #6f6f6f;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #6f6f6f;
 }
 .plan-sign-up {
   text-align: center;
   margin-top: 4.8rem;
+}
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+.feature-icon {
+  filter: invert(50%) sepia(80%) saturate(500%) hue-rotate(10deg);
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
