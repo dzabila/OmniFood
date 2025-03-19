@@ -37,7 +37,10 @@
 #45260a
 - ACCENTS:
 - GREYS:
-  #555
+
+  #888
+  #767676 lightest grey allowed on #fff
+  #555 
   #333
   #6f6f6f
 --- 05 SHADOWS
@@ -94,6 +97,9 @@ html {
 }
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 .grid--center-v {
   align-items: center;
