@@ -60,6 +60,9 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  /* amas viyenebt roca menu bars vamatebt horizontaruli qroli romar gauchndes */
+  /* es marto mashin mushaobs roca arfers aqvs absolituri pozicionireba bodyis mimart */
+  overflow-x: hidden;
 }
 
 html {
@@ -67,10 +70,14 @@ html {
   /* 10px / 16px = 0.625 = 62.5 % */
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 /* ******************* */
 /* GENERAL REUSABLE COMPONENTS */
 /* ******************* */
+.hidden {
+  display: none;
+}
 .container {
   /* 1140px */
   max-width: 120rem;
@@ -212,6 +219,7 @@ html {
   width: 3rem;
   height: 3rem;
   color: #e67e22;
+  line-height: 1.2;
 }
 *:focus {
   outline: none;
